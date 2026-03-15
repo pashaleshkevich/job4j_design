@@ -22,13 +22,14 @@ INSERT INTO players (
     'Фернандо Мендоса',
     '2003-10-01',  
     'Quarterback',
+    'Indiana Hoosiers',
     196,
     102,
-    'Indiana Hoosiers',
     'Сильная рука. Хорошо читает поле.',
     'Средний атлетизм.'
 );
 UPDATE players SET 
     strengths = 'Сильная рука. Хорошо читает поле. Отличная защита мяча. Не боится контакта. Готов к НФЛ.',
-    weaknesses = 'Средний атлетизм. Не является настоящим dual-threat QB для НФЛ.'
+    weaknesses = 'Средний атлетизм. Не является настоящим dual-threat QB для НФЛ.';
 DELETE FROM players;
+SELECT * FROM players;
